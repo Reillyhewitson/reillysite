@@ -20,7 +20,12 @@ body {
   margin-bottom: 2%;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
-  margin-left: 5vw;
+  min-height: 89px
+  /*margin-left: 80px;*/
+}
+
+.typed-cursor {
+  display: none
 }
 
 section {
@@ -340,5 +345,9 @@ a:active {
   font-family: "Roboto Mono", monospace;
   font-weight: lighter;
   color: #ffffff;
+}
+
+.ti-cursor{
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

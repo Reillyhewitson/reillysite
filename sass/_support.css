@@ -50,4 +50,8 @@
     section ul{
         margin-bottom: 0;
     }
+
+    #typed{
+        margin-left: 0
+    }
 }
