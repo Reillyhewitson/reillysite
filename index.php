@@ -37,7 +37,7 @@
                     <h1 id="typed"></h1>
                     <h2 id="about">ABOUT ME</h2>
                     <p id="mydesc">
-                        Hi, I'm reilly a student at the secondary school <a href="https://www.utcreading.org.uk">UTC Reading</a>. I am currently studying my GCSEs with a focus on computing, and I often persue side projects in my spare
+                        Hi, I'm Reilly, a student at the secondary school <a href="https://www.utcreading.org.uk">UTC Reading</a>. I am currently studying my GCSEs with a focus on computing, and I often persue side projects in my spare
                         time. For example, I am currently working with some friends on a web design business called <a href="https://www.benjisoft.org.uk">BenjiSoft</a>. I also persue personal projects which you can see on this site. If you are interested in offering me work
                             experience, shoot me an email at
                             <a href="mailto:reillyhewitson@gmail.com">reillyhewitson@gmail.com</a> or connect with me on
