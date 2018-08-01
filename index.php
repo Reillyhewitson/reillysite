@@ -142,7 +142,7 @@
         <div id="betweenPages"></div>
         <div id="sec8">
             <h1>Spotifylist</h1>
-            <p>This is a simple program I made to experiment with JSON parsing. I used Spotipy for user authentication but everything else is custom get requests. The way it works is that you sign in with your spotify account. It then gets a list of the playlists in your account. You select one of these and it uses the playlist id to get all the songs in your playlist. I have also done a similar thing with reddit using their .json url exstensions e.g. <a href="https://reddit.com/r/all/new.json">reddit.com/r/all/new.json</a>. You can see Spotify list on Github <a href="https://github.com/Reillyhewitson/spotifylist">here</a>.</p>
+            <p>This is a simple program I made to experiment with JSON parsing. I used Spotipy for user authentication but everything else is custom get requests. The way it works is that you sign in with your spotify account. It then gets a list of the playlists in your account. You select one of these and it uses the playlist id to get all the songs in your playlist. I have also done a similar thing with reddit using their .json url exstensions e.g. <a href="https://reddit.com/r/all/new.json">reddit.com/r/all/new.json</a>. You can see Spotifylister on Github <a href="https://github.com/Reillyhewitson/spotifylist">here</a>.</p>
         </div>
         <div id="betweenPages"></div>
         <div id="footer">
