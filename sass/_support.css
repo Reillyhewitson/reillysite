@@ -1,0 +1,53 @@
+@supports (backdrop-filter: blur()) or (-webkit-backdrop-filter: blur()){
+    #sec1{
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px)
+    }
+
+    #sec1bg{
+        background:linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4) ), url("../assets/code.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #about{
+        color: #ffffff
+    }
+
+    #typed{
+        color: #ffffff 
+    }
+
+    #mydesc{
+        color: #ffffff
+    }
+
+    ul{
+        color: #ffffff
+    }
+
+    
+}
+
+@media screen and (max-width: 600px){
+    #horizontal{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project{
+        width: 80%;
+    }
+
+    #vertical{
+        max-height: none;
+    }
+
+    section{
+        height: auto
+    }
+
+    section ul{
+        margin-bottom: 0;
+    }
+}

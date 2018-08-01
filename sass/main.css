@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700");
+@import url("_support.css");
+body {
+  background-color: #133046;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#typed {
+  color: #000000;
+  font-size: 50pt;
+  margin-top: 0;
+  margin-bottom: 2%;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  margin-left: 5vw;
+}
+
+section {
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  min-width: 100%;
+}
+
+#sec1bg {
+  background: #ffffff;
+}
+
+#about {
+  font-family: "Roboto Mono", monospace;
+  color: #000000;
+  font-weight: lighter;
+  font-size: 30pt;
+  margin-top: 0%;
+}
+
+#mydesc {
+  color: #000000;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+ul {
+  font-family: "Roboto Mono", monospace;
+  color: #000000;
+  list-style-type: none;
+}
+
+a:-webkit-any-link {
+  color: #dd6e42;
+  text-decoration: none;
+}
+
+a:-moz-any-link {
+  color: #dd6e42;
+  text-decoration: none;
+}
+
+a:any-link {
+  color: #dd6e42;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #dd6e42;
+  text-decoration: none;
+}
+
+a:link {
+  color: #dd6e42;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dd6e42;
+  text-decoration: none;
+}
+
+a:active {
+  color: #dd6e42;
+  text-decoration: none;
+}
+
+#projects {
+  color: #ffffff;
+  font-size: 50pt;
+  margin-top: 0;
+  margin-bottom: 2%;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  margin-left: 5vw;
+}
+
+#vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+  height: auto;
+}
+
+#horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project {
+  width: 25%;
+  border-color: #000000;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.project h3 #dataless {
+  color: #f3418d;
+}
+
+.project p {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#lock {
+  width: 40px;
+  height: 40px;
+  margin-top: 2%;
+}
+
+#benjisoft {
+  width: 40px;
+  height: 40px;
+  margin-top: 2%;
+}
+
+.project h3 #engineer {
+  color: #FF7700;
+}
+
+.project:hover {
+  background-color: #0e2231;
+}
+
+#sec3 {
+  color: #ffffff;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+#sec3 h1 b {
+  color: #f3418d;
+}
+
+#sec3 h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#sec3 #largelock {
+  width: 100px;
+  height: auto;
+  margin: 2% auto;
+}
+
+#sec3 p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#sec4 #largebenji {
+  width: 144px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#sec4 {
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#betweenPages {
+  background: #000000;
+  height: 3px;
+  width: 100%;
+}
+
+#sec4 h1 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+#sec4 p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#sec5 {
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#sec5 #largelock {
+  width: 100px;
+  height: auto;
+  margin: 2% auto;
+}
+
+#sec5 h1 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+#sec5 h1 b {
+  color: #FF7700;
+}
+
+#sec5 p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#sec6 {
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  text-align: justify;
+}
+
+#sec6 p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#sec6 h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#sec7 {
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  text-align: justify;
+}
+
+#sec7 p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#sec7 h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#sec7 ul {
+  text-align: center;
+  color: #ffffff;
+}
+
+#sec8 {
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  text-align: justify;
+}
+
+#sec8 p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#sec8 h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */
