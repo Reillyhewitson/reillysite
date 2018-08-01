@@ -76,7 +76,7 @@
                         <div class="project" onclick='document.getElementById("sec4").scrollIntoView()'>
                             <img id="benjisoft" src="assets/benjisoft.png">
                             <h3>BenjiSoft</h3>
-                            <p>This is a web design company offering compertiitve prices, whilst providing a bespoke service. Check them out <a href="https://benjisoft.org.uk">here</a>.</p>
+                            <p>This is a web design company offering competiitve prices, whilst providing a bespoke service. Check them out <a href="https://benjisoft.org.uk">here</a>.</p>
                         </div>
                     </div>
                     <div id="horizontal">
@@ -98,7 +98,7 @@
                         </div>
                         <div class="project" onclick='document.getElementById("sec8").scrollIntoView()'>
                             <h3>Spotifylist</h3>
-                            <p>This is a more recent python project and is a simple project that gets a list of songd from a spotify playlist. See it on Github <a href="https://github.com/Reillyhewitson/spotifylist">here</a>.</p>
+                            <p>This is a more recent python project and is a simple project that gets a list of songs from a spotify playlist. See it on Github <a href="https://github.com/Reillyhewitson/spotifylist">here</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -124,12 +124,12 @@
         <div id="betweenPages"></div>
         <div id="sec6">
             <h1>Where's My Milk</h1>
-            <p>Where's my Milk is a project I did at my first hackathon early in 2018. We decided to use the equipment given to track cows. The point behind the hackathon was to create a solution that would take advantage of the LoRaWAN network which is built on top of the old analogue TV signals. As such it has an extremely wide range and long battery life. Becuase of these factors we believed there was a use case for a farmer and consumer to track their cows. See a mockup <a href="https://wheresmymilk.online">here</a>.</p>
+            <p>Where's my Milk is a project I did at my first hackathon early in 2018. We decided to use the equipment given to track cows. The point behind the hackathon was to create a solution that would take advantage of the LoRaWAN network which is built on top of the old analogue TV signals. As such it has an extremely wide range and long battery life; Because of these factors we believed there was a use case for a farmer and consumer to track their cows. See a mockup <a href="https://wheresmymilk.online">here</a>.</p>
         </div>
         <div id="betweenPages"></div>
         <div id="sec7">
             <h1>FileWrite 2</h1>
-            <p>This was my first long form project. I found it suffered from a lot of feature creep, I managed to get the core feature set done in a week or two, but then decided to add a lot more. The features currently include</p>
+            <p>This was my first long-form project. I found it suffered from a lot of feature creep, I managed to get the core feature set done in a week or two, but then decided to add a lot more. The features currently include:</p>
             <ul>
                 <li>Create a file</li>
                 <li>Edit a file (add to only)</li>
@@ -137,12 +137,12 @@
                 <li>Change directory</li>
                 <li>List files</li>
             </ul>
-            <p>I also created a third version of FileWrite: <a href="https://github.com/Reillyhewitson/fileWrite-3">FileWrite 3</a>. This came with a few updates such as being able to change the entire contents of the file, having a GUI. I also wrote it in C# due to Visual Studio's WSIWYG GUI editor. You can find version 2 at <a href="https://github.com/Reillyhewitson/FileWrite-2">Github</a>.</p>
+            <p>I also created a third version of FileWrite: <a href="https://github.com/Reillyhewitson/fileWrite-3">FileWrite 3</a>. This came with a few updates such as being able to change the entire contents of the file and having a GUI. I also wrote it in C# due to Visual Studio's WYSIWYG GUI editor. You can find version 2 at <a href="https://github.com/Reillyhewitson/FileWrite-2">Github</a>.</p>
         </div>
         <div id="betweenPages"></div>
         <div id="sec8">
             <h1>Spotifylist</h1>
-            <p>This is a simple program I made to experiment with JSON parsing. I used Spotipy for user authentication but everything else is custom get requests. The way it works is that you sign in with your spotify account. It then gets a list of the playlists in your account. You select one of these and it uses the playlist id to get all the songs in your playlist. I have also done a similar thing with reddit using their .json url exstensions e.g. <a href="https://reddit.com/r/all/new.json">reddit.com/r/all/new.json</a>. You can see Spotifylister on Github <a href="https://github.com/Reillyhewitson/spotifylist">here</a>.</p>
+            <p>This is a simple program I made to experiment with JSON parsing. I used <a href="https://github.com/plamere/spotipy">Spotipy</a> for user authentication but everything else is custom get requests. The way it works is that you sign in with your spotify account. It then gets a list of the playlists in your account. You select one of these and it uses the playlist ID to get all the songs in your playlist. I have also done a similar thing with reddit using their .json url exstensions e.g. <a href="https://reddit.com/r/all/new.json">reddit.com/r/all/new.json</a>. You can see Spotifylister on Github <a href="https://github.com/Reillyhewitson/spotifylist">here</a>.</p>
         </div>
         <div id="betweenPages"></div>
         <div id="footer">
