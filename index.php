@@ -150,7 +150,7 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.2/dist/typeit.min.js" />
+    <script src="js/typeit.min.js" />
     <script src="js/script.js"></script>
     <script>
         instance = new TypeIt('#typed',{
@@ -158,7 +158,7 @@
             speed: 100,
             breakLines: false,
             autoStart: false,
-            cursor: false
+            cursor: false,
         })
     </script>
     <script>
