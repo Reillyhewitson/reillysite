@@ -350,4 +350,7 @@ a:active {
 .ti-cursor{
   display: none;
 }
-/*# sourceMappingURL=main.css.map */
+
+ul{
+  padding-left: 0;
+}
