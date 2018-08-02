@@ -71,7 +71,7 @@
                         <div class="project" id="project1"onclick='document.getElementById("sec3").scrollIntoView()'>
                             <img id="lock" src="assets/lock-solid.svg">
                             <h3>COMING <b id="dataless">SOON</b></h3>
-                            <p>I have an exciting new project that is coming soon. To find out more go <a href="https://dataless.network">here</a>.</p>
+                            <p>I have an exciting new project that is coming soon. <!--To find out more go <a href="https://dataless.network">here</a>.--></p>
                         </div>
                         <div class="project" onclick='document.getElementById("sec4").scrollIntoView()'>
                             <img id="benjisoft" src="assets/benjisoft.png">
