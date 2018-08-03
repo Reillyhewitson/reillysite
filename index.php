@@ -158,7 +158,7 @@
             speed: 100,
             breakLines: false,
             autoStart: false,
-            cursor: false,
+            cursor: false
         })
     </script>
     <script>

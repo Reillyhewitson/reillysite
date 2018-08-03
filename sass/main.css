@@ -14,7 +14,7 @@ body {
 }
 
 #typed {
-  color: #000000;
+  color: #ffffff;
   font-size: 50pt;
   margin-top: 0;
   margin-bottom: 2%;
@@ -35,20 +35,23 @@ section {
   min-width: 100%;
 }
 
-#sec1bg {
-  background: #ffffff;
-}
+#sec1bg{
+        background:linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4) ), url("../assets/codeblur.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 #about {
   font-family: "Roboto Mono", monospace;
-  color: #000000;
+  color: #ffffff;
   font-weight: lighter;
   font-size: 30pt;
   margin-top: 0%;
 }
 
 #mydesc {
-  color: #000000;
+  color: #ffffff;
   font-family: "Roboto Mono", monospace;
   margin-left: 5%;
   margin-right: 5%;
@@ -57,7 +60,7 @@ section {
 
 ul {
   font-family: "Roboto Mono", monospace;
-  color: #000000;
+  color: #ffffff;
   list-style-type: none;
 }
 
