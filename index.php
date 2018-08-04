@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="I'm Reilly and I have developed this portfolio site. So come in and look around.">
+    <meta name="description" content="I'm Reilly a student at the school UTC Reading. Come in and see what I've done.">
+    <meta name="keywords" content-"student, programmer, web developer, python, html, css, project">
     <title>Reilly Hewitson</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="sass/main.css" />
