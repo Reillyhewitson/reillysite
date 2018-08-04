@@ -20,4 +20,17 @@
     section ul{
         margin-bottom: 0;
     }
+    #typed{
+        display: none;
+    }
+    #mobile{
+        color: #ffffff;
+        font-size: 50pt;
+        margin-top: 0;
+        margin-bottom: 2%;
+        font-family: "Roboto Mono", monospace;
+        font-weight: bold;
+        min-height: 89px;
+        display: initial;
+    }
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="I'm Reilly and I have developed this portfolio site. So come in and look around.">
     <title>Reilly Hewitson</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="sass/main.css" />
@@ -35,6 +36,7 @@
             <section id="sec1">
                 <div id="header">
                     <h1 id="typed"></h1>
+                    <h1 id="mobile">WELCOME</h1>
                     <h2 id="about">ABOUT ME</h2>
                     <p id="mydesc">
                         Hi, I'm Reilly, a student at the secondary school <a href="https://www.utcreading.org.uk">UTC Reading</a>. I am currently studying for my GCSEs with a focus on computing, and I often pursue side projects in my spare
@@ -60,6 +62,7 @@
                         <li id="mta8">Introduction to Programming using Block-Based Languages</li>
                     </ul>
                 </div>
+                <div class="addthis_inline_follow_toolbox"></div> 
             </section>
         </div>
         <div id="betweenPages"></div>
@@ -69,19 +72,19 @@
                 <div id="vertical">
                     <div id="horizontal">
                         <div class="project" id="project1"onclick='document.getElementById("sec3").scrollIntoView()'>
-                            <img id="lock" src="assets/lock-solid.svg">
+                            <img id="lock" src="assets/lock-solid.svg" alt="closed lock">
                             <h3>COMING <b id="dataless">SOON</b></h3>
                             <p>I have an exciting new project that is coming soon. <!--To find out more go <a href="https://dataless.network">here</a>.--></p>
                         </div>
                         <div class="project" onclick='document.getElementById("sec4").scrollIntoView()'>
-                            <img id="benjisoft" src="assets/benjisoft.png">
+                            <img id="benjisoft" src="assets/benjisoft.png" alt="Filled in B with purple to dark blue gradient">
                             <h3>BenjiSoft</h3>
                             <p>This is a web design company offering competiitve prices, whilst providing a bespoke service. Check them out <a href="https://benjisoft.org.uk">here</a>.</p>
                         </div>
                     </div>
                     <div id="horizontal">
                         <div class="project"onclick='document.getElementById("sec5").scrollIntoView()'>
-                            <img id="lock" src="assets/lock-solid.svg">
+                            <img id="lock" src="assets/lock-solid.svg" alt="closed lock">
                             <h3>COMING <b id="engineer">SOON</b></h3>
                             <p>Another project that is coming soon.</p>
                         </div>
@@ -105,19 +108,19 @@
             </div>
         </section>
         <div id="sec3">
-            <img id="largelock" src="assets/lock-solid.svg">
+            <img id="largelock" src="assets/lock-solid.svg" alt="closed lock">
             <h1>COMING <b>SOON</b></h1>
             <p> This will be an exciting new project being developed with me along side with some of my teammates from <a href="https://benjisoft.org.uk/about.php">Benjisoft</a>. It will be a way to connect to others and learn in places with limited access to the internet (no it's not a library). MORE INFORMATION COMING SOON. <!--SEE A PREVIEW <a href="https://dataless.network">HERE</a>.--></p>
         </div>
         <div id="betweenPages"></div>
         <div id="sec4">
-            <img id="largebenji" src="assets/benjisoft.png">
+            <img id="largebenji" src="assets/benjisoft.png" alt="Filled in B with purple to dark blue gradient">
             <h1>Benjisoft</h1>
             <p>Benjisoft is a place to get bespoke websites. We manage your site as well as your web domain all for the low, low fee of £5 a month. You can see our site <a href="https://benjisoft.org.uk">here</a>. I am the frontend developer, so if you like this site then we should be able to make a great one for you!</p>
         </div>
         <div id="betweenPages"></div>
         <div id="sec5">
-            <img id="largelock" src="assets/lock-solid.svg">
+            <img id="largelock" src="assets/lock-solid.svg" alt="closed lock">
             <h1>COMING <b>SOON</b></h1>
             <p>This is an upcoming project that I don't know much about, all I know is that it's going to be great. I will post more information as soon as I get it.</p>
         </div>
@@ -164,5 +167,6 @@
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b6574b14617c953"></script> 
 </body>
 </html>

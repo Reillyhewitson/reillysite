@@ -21,6 +21,7 @@ body {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   min-height: 89px;
+  /*display: initial;*/
   /*margin-left: 80px;*/
 }
 
@@ -358,4 +359,14 @@ ul{
   padding-left: 0;
   margin-right: 5%;
   margin-left: 5%;
+}
+
+.addthis_toolbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#mobile{
+  display: none;
 }
