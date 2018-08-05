@@ -74,8 +74,8 @@
                     <div id="horizontal">
                         <div class="project" id="project1"onclick='document.getElementById("sec3").scrollIntoView()'>
                             <img id="lock" src="assets/lock-solid.svg" alt="closed lock">
-                            <h3>COMING <b id="dataless">SOON</b></h3>
-                            <p>I have an exciting new project that is coming soon. <!--To find out more go <a href="https://dataless.network">here</a>.--></p>
+                            <h3>DATALESS <b id="dataless">NETWORK</b></h3>
+                            <p>This is a project to connect the world without data. To see more and sign up for updates go <a href="https://dataless.network">here</a>.</p>
                         </div>
                         <div class="project" onclick='document.getElementById("sec4").scrollIntoView()'>
                             <img id="benjisoft" src="assets/benjisoft.png" alt="Filled in B with purple to dark blue gradient">
@@ -111,7 +111,7 @@
         <div id="sec3">
             <img id="largelock" src="assets/lock-solid.svg" alt="closed lock">
             <h1>COMING <b>SOON</b></h1>
-            <p> This will be an exciting new project being developed with me along side with some of my teammates from <a href="https://benjisoft.org.uk/about.php">Benjisoft</a>. It will be a way to connect to others and learn in places with limited access to the internet (no it's not a library). MORE INFORMATION COMING SOON. <!--SEE A PREVIEW <a href="https://dataless.network">HERE</a>.--></p>
+            <p> This will be an exciting new project being developed with me along side with some of my teammates from <a href="https://benjisoft.org.uk/about.php">Benjisoft</a>. It will be a way to connect to others and learn in places with limited access to the internet (no it's not a library). More information Coming soon. Sign up for updates <a href="https://dataless.network">HERE</a>.</p>
         </div>
         <div id="betweenPages"></div>
         <div id="sec4">
