@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="I'm Reilly a student at the school UTC Reading. Come in and see what I've done.">
-    <meta name="keywords" content="student, programmer, web developer, python, html, css, project">
+    <meta name="description" content="Hi, I'm a student developer come and discover what I can do. I am interested in gaining a wide array of work experience so feel free to contact me.">
+    <meta name="keywords" content="student, programmer, web developer, python, html, css, project, developer">
     <title>Reilly Hewitson</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="sass/main.css" />
@@ -73,7 +73,7 @@
                 <div id="vertical">
                     <div id="horizontal">
                         <div class="project" id="project1"onclick='document.getElementById("sec3").scrollIntoView()'>
-                            <img id="lock" src="assets/lock-solid.svg" alt="closed lock">
+                            <img id="lock" src="assets/datalesslogo.png" alt="d n with black background and pink border">
                             <h3>DATALESS <b id="dataless">NETWORK</b></h3>
                             <p>This is a project to connect the world without data. To see more and sign up for updates go <a href="https://dataless.network">here</a>.</p>
                         </div>
@@ -109,8 +109,8 @@
             </div>
         </section>
         <div id="sec3">
-            <img id="largelock" src="assets/lock-solid.svg" alt="closed lock">
-            <h1>COMING <b>SOON</b></h1>
+            <img id="largelock" src="assets/datalesslogo.png" alt="d n with black background and pink border">
+            <h1>DATALESS <b>NETWORK</b></h1>
             <p> This will be an exciting new project being developed with me along side with some of my teammates from <a href="https://benjisoft.org.uk/about.php">Benjisoft</a>. It will be a way to connect to others and learn in places with limited access to the internet (no it's not a library). More information Coming soon. Sign up for updates <a href="https://dataless.network">HERE</a>.</p>
         </div>
         <div id="betweenPages"></div>
