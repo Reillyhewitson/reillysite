@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Hi, I'm a student developer come and discover what I can do. I am interested in gaining a wide array of work experience so feel free to contact me.">
+    <meta name="description" content="Hi, I'm a student developer  If you're interested in finding out about the projects I have done in the past click on this website.">
     <meta name="keywords" content="student, programmer, web developer, python, html, css, project, developer">
     <title>Reilly Hewitson</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
