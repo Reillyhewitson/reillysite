@@ -85,7 +85,7 @@
                     </div>
                     <div id="horizontal">
                         <div class="project"onclick='document.getElementById("sec5").scrollIntoView()'>
-                            <img id="lock" src="assets/lock-solid.svg" alt="closed lock">
+                            <img id="lock" src="assets/cattrack.png" alt="closed lock">
                             <h3>COMING <b id="engineer">SOON</b></h3>
                             <p>Another project that is coming soon.</p>
                         </div>
@@ -121,7 +121,7 @@
         </div>
         <div id="betweenPages"></div>
         <div id="sec5">
-            <img id="largelock" src="assets/lock-solid.svg" alt="closed lock">
+            <img id="largelock" src="assets/cattrack.png" alt="closed lock">
             <h1>COMING <b>SOON</b></h1>
             <p>This is an upcoming project that I don't know much about, all I know is that it's going to be great. I will post more information as soon as I get it.</p>
         </div>
@@ -151,6 +151,7 @@
         <div id="betweenPages"></div>
         <div id="footer">
             <p>Locks provided by <a href="https://fontawesome.com">Fontawesome</a></p>
+            <p>&copy; 2018
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
