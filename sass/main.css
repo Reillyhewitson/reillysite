@@ -271,8 +271,8 @@ a:active {
 }
 
 #sec5 #largelock {
-  width: 100px;
-  height: auto;
+  width: auto;
+  height: 100px;
   margin: 2% auto;
 }
 

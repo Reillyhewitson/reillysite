@@ -151,7 +151,7 @@
         <div id="betweenPages"></div>
         <div id="footer">
             <p>Locks provided by <a href="https://fontawesome.com">Fontawesome</a></p>
-            <p>&copy; 2018
+            <p>&copy; 2018 Reilly Hewitson</p>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
