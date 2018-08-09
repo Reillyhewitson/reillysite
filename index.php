@@ -73,7 +73,7 @@
                 <div id="vertical">
                     <div id="horizontal">
                         <div class="project" id="project1"onclick='document.getElementById("sec3").scrollIntoView()'>
-                            <img id="lock" src="assets/datalesslogo.png" alt="d n with black background and pink border">
+                            <img id="lock" src="https://res.cloudinary.com/reillyhewitson/image/upload/q_auto/datalesslogo.png" alt="d n with black background and pink border">
                             <h3>DATALESS <b id="dataless">NETWORK</b></h3>
                             <p>This is a project to connect the world without data. To see more and sign up for updates go <a href="https://dataless.network">here</a>.</p>
                         </div>
