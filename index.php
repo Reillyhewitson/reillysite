@@ -169,5 +169,8 @@
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>
     <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b6574b14617c953"></script> 
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(101133885); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101133885ns.gif" /></p></noscript>
 </body>
 </html>
