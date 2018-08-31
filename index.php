@@ -85,9 +85,9 @@
                     </div>
                     <div id="horizontal">
                         <div class="project"onclick='document.getElementById("sec5").scrollIntoView()'>
-                            <img id="lock" src="assets/lock-solid.svg" alt="closed lock">
-                            <h3>COMING <b id="engineer">SOON</b></h3>
-                            <p>Another project that is coming soon.</p>
+                            <img id="lock" src="assets/cattrack.png" alt="closed lock">
+                            <h3>CAT <b id="cattrack">TRACK</b></h3>
+                            <p>Cat Track was made during a work experience with <a href="https://think-eningineer.com">Think Engineer</a>. It is an Internet connected cat flap. You can see it <a href="https://www.github.com/cattrack">here</a></p>
                         </div>
                         <div class="project"onclick='document.getElementById("sec6").scrollIntoView()'>
                             <h3>Where's my milk</h3>
@@ -121,9 +121,9 @@
         </div>
         <div id="betweenPages"></div>
         <div id="sec5">
-            <img id="largelock" src="assets/lock-solid.svg" alt="closed lock">
-            <h1>COMING <b>SOON</b></h1>
-            <p>This is an upcoming project that I don't know much about, all I know is that it's going to be great. I will post more information as soon as I get it.</p>
+            <img id="largelock" src="assets/cattrack.png" alt="closed lock">
+            <h1>CAT <b id="cattrack">TRACK</b></h1>
+            <p>Cat Track is an internet connected Cat flap prototype, we were working towards developing this over four weeks with the help of <a href="https://think-eningineer.com">Think Engineer</a>. Whilst we didn't get fully working we made lots of progress and I personally learnt a lot about Kotlin and Planning of projects. You can see the full project <a href="https://github.com/cattrack">here</a>. A special thanks to <a href="https://think-eningineer.com">Think Engineer</a> for all the help and guidance throughout the project. </p>
         </div>
         <div id="betweenPages"></div>
         <div id="sec6">
@@ -151,6 +151,7 @@
         <div id="betweenPages"></div>
         <div id="footer">
             <p>Locks provided by <a href="https://fontawesome.com">Fontawesome</a></p>
+            <p>&copy; 2018 Reilly Hewitson</p>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>

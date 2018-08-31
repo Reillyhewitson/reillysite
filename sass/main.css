@@ -158,7 +158,7 @@ a:active {
 }
 
 #lock {
-  width: 40px;
+  width: auto;
   height: 40px;
   margin-top: 2%;
 }
@@ -169,8 +169,8 @@ a:active {
   margin-top: 2%;
 }
 
-.project h3 #engineer {
-  color: #FF7700;
+#cattrack {
+  color: #fb5607;
 }
 
 .project:hover {
@@ -271,8 +271,8 @@ a:active {
 }
 
 #sec5 #largelock {
-  width: 100px;
-  height: auto;
+  width: auto;
+  height: 100px;
   margin: 2% auto;
 }
 
@@ -280,10 +280,6 @@ a:active {
   font-weight: bold;
   font-size: 50px;
   text-align: center;
-}
-
-#sec5 h1 b {
-  color: #FF7700;
 }
 
 #sec5 p {
