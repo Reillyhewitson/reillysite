@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,17 +50,17 @@
                             <a href="https://certiport.pearsonvue.com/Certifications/Microsoft/MTA/Overview">MTAs</a> and have so far passed 9. You can see evidence of these on my
                             <a href="https://www.linkedin.com/in/reilly-hewitson-623a83154/">LinkedIn</a> or on
                             <a href="https://www.youracclaim.com/user/reilly-hewitson">Your Acclaim</a>
-                            <br>Below are the Certifications I have:</p></p>
+                            <br>Below are the Certifications I have:</p>
                     <ul>
-                        <li id="mta6">Security Fundamentals</li>
-                        <li id="mta5">Mobility and Device Fundamentals</li>
-                        <li id="mta3">Software Development Fundamentals</li>
-                        <li id="mta7">Windows Operating System Fundamentals</li>
-                        <li id="mta4">Introduction to Programming using Python</li>
+                        <li id="mta7">Security Fundamentals</li>
+                        <li id="mta6">Mobility and Device Fundamentals</li>
+                        <li id="mta4">Software Development Fundamentals</li>
+                        <li id="mta8">Windows Operating System Fundamentals</li>
+                        <li id="mta5">Introduction to Programming using Python</li>
                         <li id="mta1">HTML5 Application Development Fundamentals</li>
                         <li id="mta2">Introduction to Programming using JavaScript</li>
-                        <li id="mta2">Introduction to Programming using HTML and CSS</li>
-                        <li id="mta8">Introduction to Programming using Block-Based Languages</li>
+                        <li id="mta3">Introduction to Programming using HTML and CSS</li>
+                        <li id="mta9">Introduction to Programming using Block-Based Languages</li>
                     </ul>
                 </div>
                 <div class="addthis_inline_follow_toolbox"></div> 
@@ -68,7 +68,7 @@
         </div>
         <div id="betweenPages"></div>
         <section id="sec2">
-            <div id="header">
+            <div id="project_list">
                 <h1 id="projects">My Projects</h1>
                 <div id="vertical">
                     <div id="horizontal">
@@ -154,9 +154,9 @@
             <p>&copy; 2018 Reilly Hewitson</p>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="js/typeit.min.js" />
-    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"> </script>
+    <script src="js/typeit.min.js"> </script>
+    <script src="js/script.js"> </script>
     <script>
         instance = new TypeIt('#typed',{
             strings: ['WELCOME', 'THIS IS MY ONLINE PORTFOLIO','FEEL FREE TO LOOK AROUND', 'WELCOME'],
