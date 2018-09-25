@@ -72,35 +72,35 @@
                 <h1 id="projects">My Projects</h1>
                 <div id="vertical">
                     <div id="horizontal">
-                        <div class="project" id="project1"onclick='document.getElementById("sec3").scrollIntoView()'>
+                        <div class="project" id="project1"onclick='scrollto("#sec3")'>
                             <img id="lock" src="https://res.cloudinary.com/reillyhewitson/image/upload/q_auto/datalesslogo.png" alt="d n with black background and pink border">
                             <h3>DATALESS <b id="dataless">NETWORK</b></h3>
                             <p>This is a project to connect the world without data. To see more and sign up for updates go <a href="https://dataless.network">here</a>.</p>
                         </div>
-                        <div class="project" onclick='document.getElementById("sec4").scrollIntoView()'>
+                        <div class="project" onclick='scrollto("#sec4")'>
                             <img id="benjisoft" src="assets/benjisoft.png" alt="Filled in B with purple to dark blue gradient">
                             <h3>BenjiSoft</h3>
                             <p>This is a web design company offering competiitve prices, whilst providing a bespoke service. Check them out <a href="https://benjisoft.org.uk">here</a>.</p>
                         </div>
                     </div>
                     <div id="horizontal">
-                        <div class="project"onclick='document.getElementById("sec5").scrollIntoView()'>
+                        <div class="project"onclick='scrollto("#sec5")'>
                             <img id="lock" src="assets/cattrack.png" alt="closed lock">
                             <h3>CAT <b id="cattrack">TRACK</b></h3>
                             <p>Cat Track was made during a work experience with <a href="https://think-eningineer.com">Think Engineer</a>. It is an Internet connected cat flap. You can see it <a href="https://www.github.com/cattrack">here</a></p>
                         </div>
-                        <div class="project"onclick='document.getElementById("sec6").scrollIntoView()'>
+                        <div class="project"onclick='scrollto("#sec6")'>
                             <h3>Where's my milk</h3>
                             <p>This was a project I developed at my first hackathon working with a few friends. We came up with this idea and it taught us a lot. See the mockup <a href="https://wheresmymilk.online">here</a>.</p>
                         </div>
                         
                     </div>
                     <div id="horizontal">
-                        <div class="project" onclick='document.getElementById("sec7").scrollIntoView()'>
+                        <div class="project" onclick='scrollto("#sec7")'>
                             <h3>FileWrite</h3>
                             <p>This was one of the first long form programs that I wrote and is essentially a way to make txt files. See it on Github <a href="https://github.com/Reillyhewitson/FileWrite-2">here</a>.</p>
                         </div>
-                        <div class="project" onclick='document.getElementById("sec8").scrollIntoView()'>
+                        <div class="project" onclick='scrollto("#sec8")'>
                             <h3>Spotifylist</h3>
                             <p>This is a more recent python project and is a simple project that gets a list of songs from a spotify playlist. See it on Github <a href="https://github.com/Reillyhewitson/spotifylist">here</a>.</p>
                         </div>
@@ -167,7 +167,11 @@
         })
     </script>
     <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
+        function scrollto(selector){
+            document.querySelector(selector).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
     </script>
     <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b6574b14617c953"></script> 
     <script src="//static.getclicky.com/js" type="text/javascript"></script>
