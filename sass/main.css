@@ -366,3 +366,7 @@ ul{
 #mobile{
   display: none;
 }
+
+.project:hover{
+  cursor: pointer;
+}
