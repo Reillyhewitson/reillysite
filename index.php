@@ -67,12 +67,14 @@
             </section>
         </div>
         <div id="betweenPages"></div>
+        <h1 id="projects">My Projects</h1>
+        <div id="wrapper">
         <section id="sec2">
             <div id="project_list">
-                <h1 id="projects">My Projects</h1>
+                
                 <div id="vertical">
                     <div id="horizontal">
-                        <div class="project" id="project1"onclick='document.getElementById("sec3").scrollIntoView()'>
+                        <div class="project" id="project1"onclick='scrollto("#sec3")'>
                             <img id="lock" src="https://res.cloudinary.com/reillyhewitson/image/upload/q_auto/datalesslogo.png" alt="d n with black background and pink border">
                             <h3>DATALESS <b id="dataless">NETWORK</b></h3>
                             <p>This is a project to connect the world without data. To see more and sign up for updates go <a href="https://dataless.network">here</a>.</p>
@@ -84,23 +86,23 @@
                         </div>
                     </div>
                     <div id="horizontal">
-                        <div class="project"onclick='document.getElementById("sec5").scrollIntoView()'>
+                        <div class="project"onclick='scrollto("#sec5")'>
                             <img id="lock" src="assets/cattrack.png" alt="closed lock">
                             <h3>CAT <b id="cattrack">TRACK</b></h3>
                             <p>Cat Track was made during a work experience with <a href="https://think-eningineer.com">Think Engineer</a>. It is an Internet connected cat flap. You can see it <a href="https://www.github.com/cattrack">here</a></p>
                         </div>
-                        <div class="project"onclick='document.getElementById("sec6").scrollIntoView()'>
+                        <div class="project"onclick='scrollto("#sec6")'>
                             <h3>Where's my milk</h3>
                             <p>This was a project I developed at my first hackathon working with a few friends. We came up with this idea and it taught us a lot. See the mockup <a href="https://wheresmymilk.online">here</a>.</p>
                         </div>
                         
                     </div>
                     <div id="horizontal">
-                        <div class="project" onclick='document.getElementById("sec7").scrollIntoView()'>
+                        <div class="project" onclick='scrollto("#sec7")'>
                             <h3>FileWrite</h3>
                             <p>This was one of the first long form programs that I wrote and is essentially a way to make txt files. See it on Github <a href="https://github.com/Reillyhewitson/FileWrite-2">here</a>.</p>
                         </div>
-                        <div class="project" onclick='document.getElementById("sec8").scrollIntoView()'>
+                        <div class="project" onclick='scrollto("#sec8")'>
                             <h3>Spotifylist</h3>
                             <p>This is a more recent python project and is a simple project that gets a list of songs from a spotify playlist. See it on Github <a href="https://github.com/Reillyhewitson/spotifylist">here</a>.</p>
                         </div>
@@ -108,51 +110,56 @@
                 </div>
             </div>
         </section>
-        <div id="sec3">
-            <img id="largelock" src="assets/datalesslogo.png" alt="d n with black background and pink border">
-            <h1>DATALESS <b>NETWORK</b></h1>
-            <p> This will be an exciting new project being developed with me along side with some of my teammates from <a href="https://benjisoft.org.uk/about.php">Benjisoft</a>. It will be a way to connect to others and learn in places with limited access to the internet (no it's not a library). More information Coming soon. Sign up for updates <a href="https://dataless.network">HERE</a>.</p>
+        <section class="sec3">
+            <div id="sec3">
+                <img id="largelock" src="assets/datalesslogo.png" alt="d n with black background and pink border">
+                <h1>DATALESS <b>NETWORK</b></h1>
+                <p> This will be an exciting new project being developed with me along side with some of my teammates from <a href="https://benjisoft.org.uk/about.php">Benjisoft</a>. It will be a way to connect to others and learn in places with limited access to the internet (no it's not a library). More information Coming soon. Sign up for updates <a href="https://dataless.network">HERE</a>.</p>
+            </div>
+            <div id="betweenPages"></div>
+            <div id="sec4">
+                <img id="largebenji" src="assets/benjisoft.png" alt="Filled in B with purple to dark blue gradient">
+                <h1>Benjisoft</h1>
+                <p>Benjisoft is a place to get bespoke websites. We manage your site as well as your web domain all for the low, low fee of £5 a month. You can see our site <a href="https://benjisoft.org.uk">here</a>. I am the frontend developer, so if you like this site then we should be able to make a great one for you!</p>
+            </div>
+            <div id="betweenPages"></div>
+            <div id="sec5">
+                <img id="largelock" src="assets/cattrack.png" alt="closed lock">
+                <h1>CAT <b id="cattrack">TRACK</b></h1>
+                <p>Cat Track is an internet connected Cat flap prototype, we were working towards developing this over four weeks with the help of <a href="https://think-eningineer.com">Think Engineer</a>. Whilst we didn't get fully working we made lots of progress and I personally learnt a lot about Kotlin and Planning of projects. You can see the full project <a href="https://github.com/cattrack">here</a>. A special thanks to <a href="https://think-eningineer.com">Think Engineer</a> for all the help and guidance throughout the project. </p>
+            </div>
+            <div id="betweenPages"></div>
+            <div id="sec6">
+                <h1>Where's My Milk</h1>
+                <p>Where's my Milk is a project I did at my first hackathon early in 2018. We decided to use the equipment given to track cows. The point behind the hackathon was to create a solution that would take advantage of the LoRaWAN network which is built on top of the old analogue TV signals. As such it has an extremely wide range and long battery life; Because of these factors we believed there was a use case for a farmer and consumer to track their cows. See a mockup <a href="https://wheresmymilk.online">here</a>.</p>
+            </div>
+            <div id="betweenPages"></div>
+            <div id="sec7">
+                <h1>FileWrite 2</h1>
+                <p>This was my first long-form project. I found it suffered from a lot of feature creep, I managed to get the core feature set done in a week or two, but then decided to add a lot more. The features currently include:</p>
+                <ul>
+                    <li>Create a file</li>
+                    <li>Edit a file (add to only)</li>
+                    <li>Delete a file</li>
+                    <li>Change directory</li>
+                    <li>List files</li>
+                </ul>
+                <p>I also created a third version of FileWrite: <a href="https://github.com/Reillyhewitson/fileWrite-3">FileWrite 3</a>. This came with a few updates such as being able to change the entire contents of the file and having a GUI. I also wrote it in C# due to Visual Studio's WYSIWYG GUI editor. You can find version 2 at <a href="https://github.com/Reillyhewitson/FileWrite-2">Github</a>.</p>
+            </div>
+            <div id="betweenPages"></div>
+            <div id="sec8">
+                <h1>Spotifylist</h1>
+                <p>This is a simple program I made to experiment with JSON parsing. I used <a href="https://github.com/plamere/spotipy">Spotipy</a> for user authentication but everything else is custom get requests. The way it works is that you sign in with your spotify account. It then gets a list of the playlists in your account. You select one of these and it uses the playlist ID to get all the songs in your playlist. I have also done a similar thing with reddit using their .json url exstensions e.g. <a href="https://reddit.com/r/all/new.json">reddit.com/r/all/new.json</a>. You can see Spotifylister on Github <a href="https://github.com/Reillyhewitson/spotifylist">here</a>.</p>
+            </div>
+        </section>
         </div>
-        <div id="betweenPages"></div>
-        <div id="sec4">
-            <img id="largebenji" src="assets/benjisoft.png" alt="Filled in B with purple to dark blue gradient">
-            <h1>Benjisoft</h1>
-            <p>Benjisoft is a place to get bespoke websites. We manage your site as well as your web domain all for the low, low fee of £5 a month. You can see our site <a href="https://benjisoft.org.uk">here</a>. I am the frontend developer, so if you like this site then we should be able to make a great one for you!</p>
-        </div>
-        <div id="betweenPages"></div>
-        <div id="sec5">
-            <img id="largelock" src="assets/cattrack.png" alt="closed lock">
-            <h1>CAT <b id="cattrack">TRACK</b></h1>
-            <p>Cat Track is an internet connected Cat flap prototype, we were working towards developing this over four weeks with the help of <a href="https://think-eningineer.com">Think Engineer</a>. Whilst we didn't get fully working we made lots of progress and I personally learnt a lot about Kotlin and Planning of projects. You can see the full project <a href="https://github.com/cattrack">here</a>. A special thanks to <a href="https://think-eningineer.com">Think Engineer</a> for all the help and guidance throughout the project. </p>
-        </div>
-        <div id="betweenPages"></div>
-        <div id="sec6">
-            <h1>Where's My Milk</h1>
-            <p>Where's my Milk is a project I did at my first hackathon early in 2018. We decided to use the equipment given to track cows. The point behind the hackathon was to create a solution that would take advantage of the LoRaWAN network which is built on top of the old analogue TV signals. As such it has an extremely wide range and long battery life; Because of these factors we believed there was a use case for a farmer and consumer to track their cows. See a mockup <a href="https://wheresmymilk.online">here</a>.</p>
-        </div>
-        <div id="betweenPages"></div>
-        <div id="sec7">
-            <h1>FileWrite 2</h1>
-            <p>This was my first long-form project. I found it suffered from a lot of feature creep, I managed to get the core feature set done in a week or two, but then decided to add a lot more. The features currently include:</p>
-            <ul>
-                <li>Create a file</li>
-                <li>Edit a file (add to only)</li>
-                <li>Delete a file</li>
-                <li>Change directory</li>
-                <li>List files</li>
-            </ul>
-            <p>I also created a third version of FileWrite: <a href="https://github.com/Reillyhewitson/fileWrite-3">FileWrite 3</a>. This came with a few updates such as being able to change the entire contents of the file and having a GUI. I also wrote it in C# due to Visual Studio's WYSIWYG GUI editor. You can find version 2 at <a href="https://github.com/Reillyhewitson/FileWrite-2">Github</a>.</p>
-        </div>
-        <div id="betweenPages"></div>
-        <div id="sec8">
-            <h1>Spotifylist</h1>
-            <p>This is a simple program I made to experiment with JSON parsing. I used <a href="https://github.com/plamere/spotipy">Spotipy</a> for user authentication but everything else is custom get requests. The way it works is that you sign in with your spotify account. It then gets a list of the playlists in your account. You select one of these and it uses the playlist ID to get all the songs in your playlist. I have also done a similar thing with reddit using their .json url exstensions e.g. <a href="https://reddit.com/r/all/new.json">reddit.com/r/all/new.json</a>. You can see Spotifylister on Github <a href="https://github.com/Reillyhewitson/spotifylist">here</a>.</p>
-        </div>
+        <section id="footwrap">
         <div id="betweenPages"></div>
         <div id="footer">
             <p>Locks provided by <a href="https://fontawesome.com">Fontawesome</a></p>
             <p>&copy; 2018 Reilly Hewitson</p>
         </div>
+        </section>
     </div>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"> </script>
     <script src="js/typeit.min.js"> </script>
@@ -167,7 +174,11 @@
         })
     </script>
     <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
+        function scrollto(selector){
+            document.querySelector(selector).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
     </script>
     <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b6574b14617c953"></script> 
     <script src="//static.getclicky.com/js" type="text/javascript"></script>

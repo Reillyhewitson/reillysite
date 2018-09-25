@@ -11,8 +11,37 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
+#wrapper{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+#wrapper > div
+    {
+        height: 100%;
+    }
+
+
+
+body:before
+    {
+        content: '';
+        height: 100%;
+        float: left;
+    }
+body:after
+    {
+        content: '';
+        clear: both;
+        display: block;
+    }
 #typed {
   color: #ffffff;
   font-size: 50pt;
@@ -110,31 +139,17 @@ a:active {
   margin-left: 5vw;
 }
 
-#vertical {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+#sec2 {
   color: #ffffff;
   font-family: "Roboto Mono", monospace;
   height: auto;
-}
-
-#horizontal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  min-width: 25vw;
+  width: 25vw;
+  max-width: 50vw;
+  float: left;
 }
 
 .project {
-  width: 25%;
   border-color: #000000;
   border-width: 3px;
   border-style: solid;
@@ -191,6 +206,12 @@ a:active {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Roboto Mono", monospace;
+}
+
+.sec3{
+  margin-left: auto;
+  max-width:75vw;
+  min-width:50vw;
 }
 
 #sec3 h1 b {
@@ -365,4 +386,9 @@ ul{
 
 #mobile{
   display: none;
+}
+
+#footwrap{
+  position: absolute;
+  bottom: 0px;
 }
