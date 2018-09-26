@@ -169,6 +169,8 @@
     <script>
         function scrollto(selector){
             document.querySelector(selector).scrollIntoView({
+                block: "start", 
+                inline: "nearest",
                 behavior: 'smooth'
             });
         }
