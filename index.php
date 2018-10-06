@@ -47,11 +47,13 @@
                             <a href="https://www.linkedin.com/in/reilly-hewitson-623a83154/">LinkedIn</a>.
                             <br>
                             <br> Alongside my normal studies I have chosen to take some
-                            <a href="https://certiport.pearsonvue.com/Certifications/Microsoft/MTA/Overview">MTAs</a> and have so far passed 9. You can see evidence of these on my
+                            <a href="https://certiport.pearsonvue.com/Certifications/Microsoft/MTA/Overview">MTAs</a> and have so far passed 9. I also have one <a href="https://www.microsoft.com/en-gb/learning/mos-certification.aspx">MOS</a>.  You can see evidence of these on my
                             <a href="https://www.linkedin.com/in/reilly-hewitson-623a83154/">LinkedIn</a> or on
                             <a href="https://www.youracclaim.com/user/reilly-hewitson">Your Acclaim</a>
                             <br>Below are the Certifications I have:</p>
                     <ul>
+                        <h4>MTAs</h4>
+                        <li id="mta10">Cloud Fundamentals</li>
                         <li id="mta7">Security Fundamentals</li>
                         <li id="mta6">Mobility and Device Fundamentals</li>
                         <li id="mta4">Software Development Fundamentals</li>
@@ -61,6 +63,8 @@
                         <li id="mta2">Introduction to Programming using JavaScript</li>
                         <li id="mta3">Introduction to Programming using HTML and CSS</li>
                         <li id="mta9">Introduction to Programming using Block-Based Languages</li>
+                        <h4 id="mos">MOS</h4>
+                        <li id="mos1">Powerpoint</li>
                     </ul>
                 </div>
                 <div class="addthis_inline_follow_toolbox"></div> 
