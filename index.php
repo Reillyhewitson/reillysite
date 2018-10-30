@@ -64,7 +64,7 @@
                         <li id="mta3">Introduction to Programming using HTML and CSS</li>
                         <li id="mta9">Introduction to Programming using Block-Based Languages</li>
                         <h4 id="mos">MOS</h4>
-                        <li id="mos1">Powerpoint</li>
+                        <li id="mos2">Powerpoint</li>
                         <li id="mos1">Excel</li>
                     </ul>
                 </div>
