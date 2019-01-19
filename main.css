@@ -109,8 +109,8 @@ section{
 @media screen and (max-width: 600px){
     #container{
         display: grid;
-        grid-template-rows: 85vh 5vh 95vh;
-        min-height: 185vh;
+        grid-template-rows: 87.5vh 5vh 95vh;
+        min-height: 187.5vh;
         max-width: 100vw;
     }
 
