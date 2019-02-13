@@ -47,7 +47,7 @@
                             <a href="https://www.linkedin.com/in/reilly-hewitson-623a83154/">LinkedIn</a>.
                             <br>
                             <br> Alongside my normal studies I have chosen to take some
-                            <a href="https://certiport.pearsonvue.com/Certifications/Microsoft/MTA/Overview">MTAs</a> and have so far passed 10. I also have one <a href="https://www.microsoft.com/en-gb/learning/mos-certification.aspx">MOS</a>.  You can see evidence of these on my
+                            <a href="https://certiport.pearsonvue.com/Certifications/Microsoft/MTA/Overview">MTAs</a> and have so far passed 10. I also have two <a href="https://www.microsoft.com/en-gb/learning/mos-certification.aspx">MOSs</a>.  You can see evidence of these on my
                             <a href="https://www.linkedin.com/in/reilly-hewitson-623a83154/">LinkedIn</a> or on
                             <a href="https://www.youracclaim.com/user/reilly-hewitson">Your Acclaim</a>
                             <br>Below are the Certifications I have:</p>
